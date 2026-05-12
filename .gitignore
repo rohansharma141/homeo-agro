@@ -1,0 +1,15 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+npm-debug.log*
+.cache/
+tmp/
