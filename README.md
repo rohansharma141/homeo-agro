@@ -69,12 +69,12 @@ Form submissions will arrive in `inquiry@homeoagro.com` inbox.
 The product bottles currently use cropped images from your pamphlet. When you have better-quality photos:
 
 - Replace these files (keep the same filenames):
-  - `images/virosil.png`
-  - `images/uri-fast.png`
-  - `images/plantowin-k.png`
-  - `images/plantowin-d.png`
-  - `images/last-tuch.png`
-- Recommended: 600×900 px, PNG with transparent background
+  - `images/virosil.jpg`
+  - `images/uri-fast.jpg`
+  - `images/plantowin-k.jpg`
+  - `images/plantowin-d.jpg`
+  - `images/last-tuch.jpg`
+- Recommended: 600×900 px JPG (or PNG with transparent background if you swap formats — also update the `<img>` `src` attributes across `index.html`, `products.html`, `blog.html`, `blog/blog-6.html`, and the `hi/` mirrors)
 
 ### 3. Hindi proofread
 

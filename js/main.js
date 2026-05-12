@@ -51,6 +51,39 @@ const WEB3FORMS_ACCESS_KEY = 'YOUR_WEB3FORMS_KEY';
   }
 })();
 
+// ---------- Scroll-to-top button (inject on every page) ----------
+(function scrollToTop() {
+  function init() {
+    if (document.querySelector('.fab-top')) return;
+    const btn = document.createElement('button');
+    btn.className = 'fab-top';
+    btn.type = 'button';
+    btn.setAttribute('aria-label', 'Scroll to top');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>';
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    document.body.appendChild(btn);
+
+    let ticking = false;
+    function onScroll() {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          btn.classList.toggle('show', window.scrollY > 400);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+
 // ---------- Mobile nav toggle ----------
 document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.nav-toggle');
