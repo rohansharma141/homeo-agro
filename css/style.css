@@ -1409,7 +1409,7 @@ section {
   margin-bottom: 1rem;
 }
 @media (max-width: 560px) { .form-row { grid-template-columns: 1fr; } }
-.form-field { display: flex; flex-direction: column; gap: 0.4rem; }
+.form-field { display: flex; flex-direction: column; gap: 0.4rem; min-width: 0; }
 .form-field.full { grid-column: 1 / -1; }
 .form-field label {
   font-size: 0.82rem;
@@ -1421,6 +1421,8 @@ section {
 .form-field input,
 .form-field select,
 .form-field textarea {
+  width: 100%;
+  max-width: 100%;
   padding: 0.75rem 1rem;
   border: 1px solid rgba(31,77,46,0.15);
   border-radius: var(--radius);
