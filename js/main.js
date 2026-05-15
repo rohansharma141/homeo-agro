@@ -84,6 +84,40 @@ const WEB3FORMS_ACCESS_KEY = 'YOUR_WEB3FORMS_KEY';
   }
 })();
 
+// ---------- GA4 event tracking ----------
+// Helper that fires a gtag event if Google Analytics is loaded. Silent
+// no-op in demo mode (placeholder Measurement ID, or local file:// view).
+function trackEvent(name, params) {
+  try {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', name, params || {});
+    }
+  } catch (e) {}
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  // WhatsApp clicks (floating FAB + any inline per-product buttons)
+  document.querySelectorAll('a[href*="wa.me/"]').forEach(a => {
+    a.addEventListener('click', () => {
+      trackEvent('whatsapp_click', {
+        product: a.dataset.product || 'general',
+        location: a.dataset.location || (a.classList.contains('fab-whatsapp') ? 'fab' : 'inline'),
+        page_path: window.location.pathname
+      });
+    });
+  });
+
+  // Phone clicks (header link + mobile sticky call + any tel: in body)
+  document.querySelectorAll('a[href^="tel:"]').forEach(a => {
+    a.addEventListener('click', () => {
+      trackEvent('phone_click', {
+        location: a.classList.contains('fab-call') ? 'sticky' : 'inline',
+        page_path: window.location.pathname
+      });
+    });
+  });
+});
+
 // ---------- Mobile nav toggle ----------
 document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.nav-toggle');
@@ -205,6 +239,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   function showSuccess(el, form) {
+    // Track form submission as a GA conversion event
+    trackEvent('form_submit', {
+      form_id: form.id || 'unknown',
+      enquiry_type: form.querySelector('input[name="enquiry_type"]')?.value || 'unknown',
+      language: form.querySelector('input[name="submitted_language"]')?.value || 'en'
+    });
     if (el) {
       el.classList.add('show');
       setTimeout(() => el.classList.remove('show'), 8000);
