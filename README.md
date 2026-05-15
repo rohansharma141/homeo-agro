@@ -47,7 +47,7 @@ homeoagro/
 
 ---
 
-## Before you deploy: 3 things to update
+## Before you deploy: 4 things to update
 
 ### 1. Web3Forms key (form submissions)
 
@@ -73,10 +73,21 @@ The product bottles currently use cropped images from your pamphlet. When you ha
   - `images/uri-fast.jpg`
   - `images/plantowin-k.jpg`
   - `images/plantowin-d.jpg`
+  - `images/plantowin-d-liquid.jpg` (currently a placeholder copy of plantowin-k)
   - `images/last-tuch.jpg`
-- Recommended: 600×900 px JPG (or PNG with transparent background if you swap formats — also update the `<img>` `src` attributes across `index.html`, `products.html`, `blog.html`, `blog/blog-6.html`, and the `hi/` mirrors)
+- Recommended: 600×900 px JPG, ≤100 KB. If you swap to PNG, also update the `<img>` `src` attributes across `index.html`, `products.html`, `blog.html`, `blog/blog-6.html`, and the `hi/` mirrors.
+- Hero portrait `images/farmer.jpg` is referenced on index + about (both languages). Recommended 1200×1500 px JPG, ≤250 KB.
 
-### 3. Hindi proofread
+### 3. Google Analytics 4
+
+The GA4 snippet is wired into every page's `<head>` with a placeholder Measurement ID. To activate:
+
+1. Go to https://analytics.google.com and create a GA4 property → "Web" data stream for `www.homeoagro.com`.
+2. Copy the **Measurement ID** (looks like `G-ABC123XYZ`).
+3. Find-and-replace `G-XXXXXXXXXX` across the repo (24 HTML files) with the real ID.
+4. Push — data will start flowing within 24 hours.
+
+### 4. Hindi proofread
 
 All Hindi content is taken from your pamphlet and document verbatim. Worth a final native-speaker read before going live.
 
@@ -167,7 +178,7 @@ This is a 100% static site. Pick any of these hosts:
 ## To make changes later
 
 Most content edits are straightforward:
-- **Phone number** appears in many places — search the entire codebase for `8960516338` and update everywhere
+- **Phone number** appears in many places — search the entire codebase for `8005004736` and update everywhere
 - **Email** — search for `inquiry@homeoagro.com`
 - **Addresses** — search for `Hardoi`
 

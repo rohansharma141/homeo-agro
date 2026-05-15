@@ -85,6 +85,10 @@ h2 { font-size: clamp(2rem, 4.5vw, 3.25rem); }
 h3 { font-size: clamp(1.4rem, 2.5vw, 1.85rem); }
 h4 { font-size: clamp(1.1rem, 1.8vw, 1.3rem); }
 
+/* Hero h1 — keep semantic <h1> for SEO but render at h2-scale visually
+   so the homepage headline doesn't dominate the layout. */
+h1.hero-h1 { font-size: clamp(2rem, 4.5vw, 3.25rem); font-weight: 600; }
+
 p { color: var(--ink-soft); font-size: 1.0625rem; }
 
 .eyebrow {
@@ -247,19 +251,18 @@ section {
 .site-header .logo { gap: 0; }
 .site-header .logo > span:not(.logo-mark) { display: none; }
 .site-header .logo-mark {
-  width: 210px;
-  height: 64px;
+  width: 240px;
+  height: 76px;
   border-radius: 0;
-  /* The JPG has whitespace baked in around the logo. Use `contain` so the
-     full logo (including the top swirl) is visible; mix-blend-mode below
-     blends the whitespace away against the cream header. The container is
-     sized for the JPG's ~3:2 aspect so the actual logo fills most of it. */
+  /* Logo JPG is cropped tight so we can give it more height; `contain`
+     keeps the full mark visible without clipping. mix-blend-mode hides
+     the small remaining white background against the cream header. */
   background: url('../images/logo.jpg') center / contain no-repeat;
   mix-blend-mode: multiply;
 }
 .site-header .logo-mark svg { display: none; }
 @media (max-width: 480px) {
-  .site-header .logo-mark { width: 160px; height: 50px; }
+  .site-header .logo-mark { width: 180px; height: 58px; }
 }
 
 .nav-links {
@@ -454,8 +457,8 @@ section {
 .trust-strip-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1.25rem 2.5rem;          /* row-gap column-gap */
   flex-wrap: wrap;
 }
 .trust-item {
@@ -465,6 +468,11 @@ section {
   font-size: 0.85rem;
   letter-spacing: 0.04em;
   color: var(--cream);
+  /* Each item takes about 30% so 3 fit per row on wide screens and the
+     remaining 2 wrap to a centered second row. */
+  flex: 0 1 auto;
+  min-width: 220px;
+  justify-content: center;
 }
 .trust-item-icon {
   width: 22px;
@@ -487,10 +495,9 @@ section {
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
-@media (max-width: 1080px) { .products-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 720px)  { .products-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 460px)  { .products-grid { grid-template-columns: 1fr; } }
 
@@ -1189,13 +1196,13 @@ html[lang="hi"] .safety-banner {
 }
 .stage-row {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 120px 1fr;
   background: var(--paper);
   border-radius: var(--radius);
   overflow: hidden;
   border-left: 4px solid var(--green-bright);
 }
-@media (max-width: 560px) { .stage-row { grid-template-columns: 80px 1fr; } }
+@media (max-width: 560px) { .stage-row { grid-template-columns: 100px 1fr; } }
 .stage-day {
   background: var(--green-deep);
   color: var(--gold);

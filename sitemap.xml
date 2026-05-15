@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.homeoagro.com/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/index.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/index.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/products.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/products.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/products.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/products.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/how-to-use.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/how-to-use.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/how-to-use.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/how-to-use.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/how-to-use.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/how-to-use.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/how-to-use.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/how-to-use.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/about.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/about.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/contact.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/contact.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/blog/blog-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-1.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-1.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/blog/blog-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-1.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-1.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/blog/blog-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-2.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-2.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/blog/blog-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-2.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-2.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/blog/blog-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-3.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-3.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/blog/blog-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-3.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-3.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/blog/blog-4.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-4.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-4.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/blog/blog-4.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-4.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-4.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/blog/blog-5.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-5.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-5.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-5.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/blog/blog-5.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-5.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-5.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-5.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.homeoagro.com/blog/blog-6.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-6.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-6.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-6.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.homeoagro.com/hi/blog/blog-6.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.homeoagro.com/blog/blog-6.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.homeoagro.com/hi/blog/blog-6.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.homeoagro.com/blog/blog-6.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

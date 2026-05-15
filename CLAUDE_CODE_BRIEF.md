@@ -229,7 +229,7 @@ Translate **all visible text** on every page to Hindi. Things to keep in English
 - Product categories on product cards: "Pesticide", "Urea", "NPK", "DAP", "KP" — these are industry terms farmers recognize in their English forms
 - Company names: "Bala Ji Homeo Agro Solutions", "Globus Solutions"
 - Address: "District Hardoi — 241001, Uttar Pradesh, India" (you can translate to "जिला हरदोई — 241001, उत्तर प्रदेश, भारत" — choice yours, recommend translating)
-- Phone number: "+91-89605 16338"
+- Phone number: "+91-80050 04736"
 - Email: "inquiry@homeoagro.com"
 - Certifications: "ISO 9001:2015", "ISO 14001:2015", "ISO 45001:2018", "GMP", "MSME: UP35A0002140"
 - Chemical compounds in product "Contains" sections: "Natsulf, Poison Oak, Cuprum Met, Natmur, Bovista, Nitric Acid, Kalimur, Calphos, Acid Phos, Ferum Sulph"
